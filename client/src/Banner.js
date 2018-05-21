@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Banner from './Banner';
 import DATA from './data';
+import './Banner.css';
 
-class ImageView extends Component {
+class Banner extends Component {
 	constructor() {
 		super();
 		this.state = { data: [] };
@@ -10,12 +10,11 @@ class ImageView extends Component {
 
 	render() {
 		return (
-			<div>
-				<Banner />
-				<h1>It works!</h1>
+			<div class="image-banner">
+				<h1>yes</h1>
 			</div>
 		);
 	}
 }
 
-export default ImageView;
+export default Banner;

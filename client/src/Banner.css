@@ -1,0 +1,8 @@
+.image-banner {
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #cccccc;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
